@@ -22,7 +22,7 @@ def execute(
     longitude: float,
     config: dict,
     nwp_path: Path,
-) -> None:
+) -> pd.DataFrame:
     """
     Executa o treinamento.
 
